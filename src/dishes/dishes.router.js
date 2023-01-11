@@ -8,7 +8,7 @@ router
     .route("/")
     .length(controller.list)
     .post(controller.create)
-    .all.(methodNotAllowed);
+    .all(methodNotAllowed);
 
 router  
     .route("/:dishId")
