@@ -56,7 +56,7 @@ const dishIdMatches = (req, res, next) => {
     }
 };
 
-const creeateValidation = (req, res, next) => {
+const createValidation = (req, res, next) => {
     dishValidName(req, res, next);
     dishHasValidDescription(req, res, next);
     dishHasValidPrice(req, res, next);
